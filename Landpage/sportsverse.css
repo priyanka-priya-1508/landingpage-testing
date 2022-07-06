@@ -1,0 +1,906 @@
+@media   (max-width:430px) {
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    body{
+        width:100%;
+        height:auto;
+        background-color: #14A8Be;
+        /* background-image:url("../images/sunshine2_img.png"),url('../images/Union.png');  */
+        background-repeat: no-repeat;
+        background-position: left top, right top;
+        padding:10px;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    .container1{
+        width:100%;
+        height:auto;
+         position: relative; 
+         margin: 0px;
+         padding: 0px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    header .logo img{
+        width:150px !important;
+        height:60px !important;
+        /* margin: 20px 0px; */
+        float:left;  
+    }
+    header .links{
+        float:right;
+         /* margin-top: -80px!important;   */
+    }
+    header ul li {
+     display: inline;
+     text-decoration: none;
+     float:right !important;
+      padding-left:10px; 
+    }
+    header ul li a{
+        list-style-type: none;
+        padding-right: 10px;
+    }
+    header ul li  img
+    {
+        width:25px !important;
+        height:25px !important;
+         /* margin-top: -10px !important;  */
+        /* padding-right: 10px; */
+    }
+    .main{
+        width:100%;
+       height: auto;
+       /* display: flex;  */
+        position: relative; 
+        padding:10px;
+   }
+   .main .cloud1{
+    position: absolute;
+    top:0px;
+    right:-10px;
+    width:150px;
+   }
+   .main  h1 {
+    justify-content: center;
+    text-align: center;
+    /* position: absolute;
+     left: 500px; */
+    /* z-index: 1; */
+    font-size: 38px !important;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color:#31394D;
+    justify-content: center;
+    text-align: center;
+}
+.main .hr-min-sect-text{
+    font-size: 38px !important;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    color:#31394D;
+    /* position: absolute;
+    top:120px; */
+     /* left:500px; */
+     justify-content: center;
+}
+.photo_3d {
+    cursor: crosshair;
+    /* width: 100px !important; */
+    /* width:100%; */
+    max-width:400px !important;
+     height:auto !important; 
+    cursor:  grab;
+    /* display: flex; */
+     /* position: absolute;  */
+     /* left:-40px; */
+    z-index: 0;
+      /* top:-200px; */
+    /* justify-content: center; */
+    text-align: center;
+    /* margin-left: -100px; */
+}
+#ground{
+    width:100px !important;
+    height:100px !important;
+}
+.main .cloud3{
+     width:150px !important; 
+    height:auto;
+   top:300px;
+    z-index: 1;
+    position: absolute;
+     top:60px; 
+    left:-10px;  
+} 
+
+.main .right-cloud4{
+    float:right;
+    position: relative;
+    right:0px;
+    
+}
+.main .right-cloud4 .cloud4{
+    z-index: 3;
+    width:250px !important;
+    position: absolute;
+    right:-9px;
+    /* bottom: -50px; */
+     top:150px !important;
+}
+.cloud10{
+   
+    width:100%;
+    height:500px;
+    position: relative;
+}
+.cloud10-img{
+    margin-left: -10px;
+     position: absolute;
+    top:250px !important;  
+    width:200px !important;
+}
+.cloud10 .about-text{
+    font-size: 48px !important;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color:white;
+	width:100%;
+    position:absolute;
+    top:700px;  
+}
+    .our-friends
+{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px 100px;
+}
+.our-friends-text{
+	font-size:25px !important ;
+	font-family: 'Playfair Display', serif;
+color:white;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+justify-content: center;
+}
+.our-friends-img img{
+    width:200px !important;
+    height:100px !important;
+	padding-right:10px !important;
+}
+.join-wait-text
+{
+    font-family: 'Playfair Display', serif; 
+font-style: normal;
+font-weight: 400;
+ font-size: 30px !important; 
+/* line-height: 80px; */
+ /*padding-top: 90px; */
+/* identical to box height */
+color: #FFFFFF;
+text-align: center;
+justify-content:center;
+line-height: 80px;
+padding-bottom:30px ;
+}
+.des-text{
+    color:white;
+    font-size:15px !important;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;	
+    max-width: 480px !important;
+    padding: 5px 10px 5px 10px !important;
+}
+form{
+    text-align: center;
+	padding:15px;
+}
+input{
+    
+/* display:inline-block; */
+font-size: 15px !important;
+box-sizing: border-box;
+/* align-items: center; */
+margin: auto;
+/* transition: 0.5s; */
+}
+input[type="text"]
+{
+     background:#14A8Be ; 
+    width:240px !important;
+    height:30px !important;
+    border:#FFFFFF solid 1px;
+    border-radius: 25px 0 0 25px;
+    color: aliceblue;
+}
+input[type="submit"]{
+    width:100px !important;
+    height:30px !important;
+    background: white;
+    color: #31394D;
+    border:#FFFFFF solid 1px;
+    border-radius: 0px 10px 10px 0px;
+    position:relative;
+    left:-10px;
+    cursor: pointer;
+}
+footer ul li{
+	display: inline-block;
+ text-decoration: none;
+}
+footer ul li a{
+	list-style-type: none;
+}
+footer ul li a img{
+	width:20px !important;
+    height:20px !important;
+}
+footer .copyright-text{
+    justify-content: center;
+	color:white;
+    font-size:10px !important;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+	padding-top:10px !important;
+    /* display: flex; */
+}
+footer .cloud9{
+    background-image: url(images/9.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px 100px;
+}
+.cloud8 img{
+    width:150px;
+    height:auto;
+}
+}
+@media (min-width:430px) and (max-width:768px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    body{
+        width:100%;
+        height:auto;
+        background-color: #14A8Be;
+        /* background-image:url("../images/sunshine2_img.png"),url('../images/Union.png');  */
+        background-repeat: no-repeat;
+        /* background-position: left top, right top; */
+        padding:10px;
+        /* background-attachment: fixed; */
+        background-size: cover;
+    }
+    .container1{
+        width:100%;
+        height:auto;
+         position: relative; 
+         margin: 0px;
+         padding: 0px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        /* border: solid 2px black; */
+    }
+    header .row{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    header .logo img{
+        width:250px;
+        height:100px;
+        margin: 20px 0px;
+        float:left;
+    }
+    header .links{
+        float:right;
+         margin-top: -80px !important; 
+    }
+    header ul li {
+     display: inline;
+     text-decoration: none;
+     float:right;
+     /* padding-right: 15px; */
+     
+    }
+    header ul li a{
+        list-style-type: none;
+        padding-right: 20px;
+    }
+    header ul li  img
+    {
+        width:50px;
+        height:50px;  
+    }
+    .main{
+        width:100%;
+       height: auto;
+       /* display: flex;  */
+        position: relative; 
+        padding:10px;
+   }
+   .main .cloud1{
+   position: absolute;
+   top:0px;
+   right:-10px;
+   }
+   .main  h1 {
+    justify-content: center;
+    text-align: center;
+    /* position: absolute;
+     left: 500px; */
+    /* z-index: 1; */
+    font-size: 68px !important;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color:#31394D;
+    justify-content: center;
+    text-align: center;
+}
+.main .hr-min-sect-text{
+    font-size: 68px !important;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    color:#31394D;
+    /* position: absolute;
+    top:120px; */
+     /* left:500px; */
+     justify-content: center;
+}
+.main .cloud1{
+    position: absolute;
+    top:0px;
+    right:-10px;
+    width:300px !important;
+    
+    }
+    .photo_3d{
+        cursor: crosshair;
+        max-width: 500px !important;
+         height: auto !important; 
+        cursor:  grab;
+        /* display: flex; */
+         position: absolute; 
+         left:-40px;
+        z-index: 0;
+          top:-200px;
+        /* justify-content: center; */
+        text-align: center;
+        /* margin-left: -100px; */
+    } 
+    .left-cloud3{
+        margin-top: 20px;
+        position: relative; 
+        /* bottom: 30px; 
+        left:0px; */
+        justify-content: center;
+        text-align: center;
+        /* border: solid 2px red; */
+      }
+      .left-cloud3 h1{
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+      }
+      .main .cloud3{
+          width: 300px !important; 
+          height:auto;
+         top:300px;
+          z-index: 1;
+          position: absolute;
+           top:60px; 
+          left:-10px; 
+      }
+      .main .right-cloud4{
+        float:right;
+        position: relative;
+        right:0px; 
+    }
+    .main .right-cloud4 .cloud4{
+        z-index: 3;
+        position: absolute;
+        right:-9px;
+        /* bottom: -50px; */
+        top:250px;
+        width:400px !important;
+    }
+    .cloud10{
+        /* border: solid 2px black; */
+        width:100%;
+        height:500px;
+        position: relative;
+    }
+    .cloud10-img{
+        width: 300px !important;
+        margin-left: -10px;
+        position: absolute;
+        top:500px;  
+    }
+    .content{
+        width:100%;
+        display: flex;
+        height: 900px;
+        /* background-color: black; */
+        /* border: solid 2px green; */
+    }
+    .our-friends
+    {
+        background-image: url(images/7.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        padding: 70px 0px ;
+    }
+    .our-friends-text{
+        font-size:60px ;
+        font-family: 'Playfair Display', serif;
+    color:white;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    }
+    .our-friends-img img{
+        width:370px;
+        height:250px;
+        padding-right:20px;
+    }
+    .join-wait-text
+    {
+        font-family: 'Playfair Display', serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px !important;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content:center;
+    line-height: 80px;
+    margin-bottom:50px;
+    }
+    .des-text{
+        color:white;
+        font-size:30px;
+        font-family: 'Playfair Display', serif; 
+        text-align: center;
+        margin-top:-50px;
+    }
+    form{
+        text-align: center;
+        padding-top:15px;
+    }
+    input{
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    }
+    input[type="text"]
+    {
+         background:#14A8Be ; 
+        width:440px;
+        height:50px;
+        border:#FFFFFF solid 1px;
+        padding:0 25px;
+        border-radius: 25px 0 0 25px;
+        color: aliceblue;
+    }
+    input[type="submit"]{
+        width:150px !important;
+        height:50px !important;
+        background: white;
+        color: #31394D;
+        border:#FFFFFF solid 1px;
+        border-radius: 0px 10px 10px 0px;
+        position:relative;
+        left:-10px;
+        cursor: pointer;
+    }
+    footer ul li{
+        display: inline;
+     text-decoration: none;
+     padding-top: 10px!important;
+    }
+    footer ul li a{
+        list-style-type: none;
+        padding-top: 10px!important;
+    }
+    footer ul li a img{
+        width:50px !important;
+        height:50px !important;
+        margin-top: 20px !important;
+    }
+    footer .copyright-text{
+        justify-content: center;
+        color:white;
+        font-size:30px !important;
+        font-family: 'Playfair Display', serif; 
+        text-align: center;
+        padding-top:20px;
+        /* display: flex; */
+    }
+    .cloud8 img{
+        margin-left:-40px;
+    }
+    footer .cloud9{
+        background-image: url(images/9.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content:space-evenly;
+    }
+}
+    @media (min-width:768px) and (max-width:1024px){
+        
+        *{
+            margin:0px;
+            padding:0px;
+    box-sizing: border-box;
+        }
+        body{
+            width:100%;
+            height:auto;
+            background-color: #14A8Be;
+             /* background-image:url('../images/Union.png'); */
+            background-repeat: no-repeat !important;
+            background-position: center;
+            padding:10px;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        container1{
+            width:100%;
+            height:auto;
+            /* position: relative; */
+            margin: 0px;
+         padding: 0px;   
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width:100%;
+            height:auto;
+            background-color: #14A8Be;
+             /* background-image:url('../images/Union.png'); */
+            background-repeat: no-repeat !important;
+            background-position: center;
+            padding:10px;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            overflow-x: hidden !important;
+        }
+        .container1{
+            width:100%;
+            height:auto;
+            /* position: relative; */
+            
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            /* border: solid 2px black; */
+        }
+        header .row{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        header .logo img{
+            width:250px;
+            height:100px;
+            margin: 20px 0px;
+            float:left;
+        }
+        header .links{
+            float:right;
+             margin-top: -80px !important; 
+        }
+        header ul li {
+         display: inline;
+         text-decoration: none;
+         float:right;
+         /* padding-right: 15px; */
+         
+        }
+        header ul li a{
+            list-style-type: none;
+            padding-right: 20px;
+        }
+        header ul li  img
+        {
+            width:50px;
+            height:50px;  
+        }
+        .main{
+              width:100%;
+            height: auto;
+            /* display: flex;  */
+             position: relative; 
+             padding:10px;
+        }
+        .main .cloud1{
+        position: absolute;
+        top:0px;
+        right:-10px;
+        
+        }
+        .main  h1 {
+            justify-content: center;
+            text-align: center;
+            /* position: absolute;
+             left: 500px; */
+            z-index: 1;
+        }
+        .main .comming-soon-text{
+            font-size: 98px;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color:#31394D;
+            justify-content: center;
+            text-align: center;
+        }
+        .main .hr-min-sect-text{
+            font-size: 98px;
+            font-family: 'Playfair Display', serif; 
+            text-align: center;
+            color:#31394D;
+            /* position: absolute;
+            top:120px; */
+             /* left:500px; */
+             justify-content: center;
+        }
+        /* .ground-section .cloud3{
+           position: absolute; 
+           left:0px;
+           top:70px;
+        }*/
+        .photo_3d {
+            cursor: crosshair;
+            width: 100%;
+             height: auto; 
+            cursor:  grab;
+            /* display: flex; */
+             position: absolute; 
+             left:-40px;
+            z-index: 0;
+              top:-200px;
+            /* justify-content: center; */
+            text-align: center;
+            /* margin-left: -100px; */
+        } 
+        .ground{
+            width:100px !important;
+        }
+        .left-cloud3{
+          margin-top: 20px;
+          position: relative; 
+          /* bottom: 30px; 
+          left:0px; */
+          justify-content: center;
+          text-align: center;
+          /* border: solid 2px red; */
+        }
+        .left-cloud3 h1{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .main .cloud3{
+            /* width:80%; */
+            height:auto;
+           top:300px;
+            z-index: 1;
+            position: absolute;
+             top:60px; 
+            left:-10px; 
+        }
+        .main .right-cloud4{
+            float:right;
+            position: relative;
+            right:0px;  
+        }
+        .main .right-cloud4 .cloud4{
+            z-index: 3;
+            position: absolute;
+            right:-9px;
+            /* bottom: -50px; */
+            top:250px;
+        }
+         .cloud10{
+            /* border: solid 2px black; */
+            width:100%;
+            height:500px;
+            position: relative;
+        }
+        .cloud10-img{
+            margin-left: -10px;
+            position: absolute;
+            top:500px;  
+        }
+         .cloud10 .about-text{
+            font-size: 68px !important;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color:white;
+            width:100%;
+            position:absolute;
+            top:700px;  
+        }
+        .content{
+            width:100%;
+            display: flex;
+            height: 900px;
+            /* background-color: black; */
+            /* border: solid 2px green; */
+        }
+        .our-friends
+        {
+            background-image: url(images/7.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            padding: 70px 0px ;
+        }
+        .our-friends-text{
+            font-size:60px ;
+            font-family: 'Playfair Display', serif;
+        color:white;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        }
+        .our-friends-img img{
+            width:370px;
+            height:250px;
+            padding-right:20px;
+        }
+        .join-wait-text
+        {
+            font-family: 'Playfair Display', serif; 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        color: #FFFFFF;
+        text-align: center;
+        justify-content:center;
+        line-height: 80px;
+        margin-bottom:50px;
+        }
+        .des-text{
+            color:white;
+            font-size:30px;
+            font-family: 'Playfair Display', serif; 
+            text-align: center;
+            margin-top:-50px;
+        }
+        form{
+            text-align: center;
+            padding-top:15px;
+        }
+        input{
+        font-size: 20px;
+        box-sizing: border-box;
+        margin: auto;
+        }
+        input[type="text"]{
+             background:#14A8Be ; 
+            width:440px;
+            height:50px;
+            border:#FFFFFF solid 1px;
+            padding:0 25px;
+            border-radius: 25px 0 0 25px;
+            color: aliceblue;
+        }
+        input[type="submit"]{
+            width:150px !important;
+            height:50px !important;
+            background: white;
+            color: #31394D;
+            border:#FFFFFF solid 1px;
+            border-radius: 0px 10px 10px 0px;
+            position:relative;
+            left:-10px;
+            cursor: pointer;
+        }
+        footer ul li{
+            display: inline;
+         text-decoration: none;
+        }
+        footer ul li a{
+            list-style-type: none;
+        }
+        footer ul li a img{
+            width:50px !important;
+            height:50px !important;
+            margin-top: 20px !important;
+        }
+        footer .copyright-text{
+            justify-content: center;
+            color:white;
+            font-size:30px !important;
+            font-family: 'Playfair Display', serif; 
+            text-align: center;
+            padding-top:20px;
+            /* display: flex; */
+        }
+        .cloud8 img{
+            margin-left:-40px;
+        }
+        footer .cloud9{
+            background-image: url(images/9.png);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content:space-evenly;
+        }      
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
